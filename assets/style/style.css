@@ -1,0 +1,205 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.navbar .menu {
+  padding: 10px;
+}
+
+.navbar .menu a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.list-tiket-pesawat {
+  padding: 20px 120px;
+}
+
+.wrapper-tiket-pesawat {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-tiket-pesawat .card-tiket-pesawat {
+  width: 230px;
+}
+
+.wrapper-keranjang {
+  padding: 0 120px;
+}
+
+.wrapper-checkout {
+  padding: 0 120px;
+}
+
+.wrapper-checkout .checkout .wrapper-checkout-tiket-pesawat {
+  display: flex;
+  align-items: center;
+}
+
+/* Style untuk wrapper-checkout */
+.checkout-pswt {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan */
+}
+
+.wrapper-checkout {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper-tiket-pswt {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.checkout {
+  margin-top: 20px;
+}
+
+.checkout form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+
+.checkout input:hover {
+  border-color: #aaa;
+}
+
+.checkout input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.card-checkout-tiket-pswt {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background: #00337C;
+}
+
+.card-checkout-tiket-pswt .image {
+  margin-right: 20px;
+  border-radius: 50%;   
+}
+
+
+.card-checkout-tiket-pswt .nama-maskapai,
+.card-checkout-tiket-pswt .waktu-berangkat,
+.card-checkout-tiket-pswt .rute-penerabangan,
+.card-checkout-tiket-pswt .tanggal-pergi,
+.card-checkout-tiket-pswt .text-harga,
+.card-checkout-tiket-pswt .total {
+  margin-bottom: 5px;
+}
+
+.checkout h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.checkout button[name="checkout"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout button[name="checkout"]:hover {
+  background-color: #45a049;
+  transform: translateY(-2px); /* Tambahkan efek pergerakan saat di-hover */
+}
+
+
+/*detail history*/
+.main {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  color: #555;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
